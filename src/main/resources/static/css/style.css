@@ -1,0 +1,47 @@
+*{
+    list-style: none;
+    border-collapse: collapse;
+    text-decoration: nonen;
+    text-decoration: none;
+    font-family: 'Jua', sans-serif;
+    color: #999999;
+    margin: 0px;
+    padding: 0px;
+}
+.Sign {
+    margin: 10px;
+    padding: 10px;
+    border: 5px solid #6799FF;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;}
+.Scontent {margin: 20px;}
+
+.Post_c{
+    background-color: skyblue;
+    width: 70%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    position: relative;}
+.Post_c_in{
+    width: 100%;
+    height: 90%;}
+.Post_b{
+    width: 50px;
+    height: auto;
+    position: absolute;
+    bottom: 0px;
+    right: 0px}
+.Main{
+    background-color: blue;
+    width: 70%;
+    height: 500px;}
+.Profil{
+    background-color: red;
+    margin: 2%;
+    width: 20%;
+    height: 200px;
+    position: fixed;
+    right: 10px;
+    top:10px}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html long="ko">
+    <head>
+        <!--meta-->
+        <meta charset="utf-8">
+        <!--TITLE-->
+        <title>sns board</title>
+
+        <!--CSS-->
+        <link rel="stylesheet" href="./css/style.css">
+        <style>
+
+
+        </style>
+        <!--JS-->
+        <script>
+
+        </script>
+
+    </head>
+
+    <body>
+        <header>
+            <!--홈버튼-->
+            <a href="./main.html"><img src="./img/home_img.png" width="50px"></a>
+        </header>
+        <div class="Sign">
+            <div class="S_content">
+                <img src="#" width="50px"/>
+                <!--action 속성 form에작성한데이터어디로보낼지지정-->
+                <form action="/member/signup" method="post">
+                    <table border="1">
+                        <tr><!--1행-->
+                            <td>아이디</td><!--1열-->
+                            <!--name서버로 전송할때 변수이름-->
+                            <td><input type="text" name="memberId" value=""></td><!--2열-->
+                        </tr>
+                        <tr><!--2행-->
+                            <td>비밀번호</td><!--2칸-->
+                            <td><input type="password" name="memberPassword" value=""></td>
+                        </tr>
+                        <tr><!--3행-->
+                            <td>닉네임</td><!--2칸-->
+                            <td><input type="text" name="nickName" value=""></td>
+                        </tr>
+                        <tr><!--4행-->
+                            <td>이메일</td><!--2칸-->
+                            <td><input type="text" name="membereMail" value=""></td>
+                            <input type="submit" value="회원가입">
+                        </tr>
+                    </table>
+                </form>
+
+            </div>
+
+        </div>
+    </body>
+</html>
+
+<!--
+1가장기본적인 html문서
+2제일먼저레이아웃을 잡아놓고 디자인요소 코딩을 진행
+3 css,js파일은 따로 파일을 분리하여 삽입을 권장
+4자동완성기능이있는 에디터 사용 권장(아톰,브라켓,ms,등)
+5드림위버 사용 잘안하나 테이블 표,이미지맵 작업시 사용도 괜찮음
+
+-->
